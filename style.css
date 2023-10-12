@@ -1,0 +1,41 @@
+.web {
+
+    background-color:midnightblue;
+    background-image: url(https://e0.pxfuel.com/wallpapers/183/863/desktop-wallpaper-minimalist-dark-stars-background-page-1-dark-minimalist-space.jpg);
+
+}
+
+.div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    color:white;
+}
+
+#Fonttext {
+
+    font-size: x-larger;
+    font-family: sans-serif;
+    height:50px;
+    color:white;
+    opacity:75%;
+
+
+}
+
+
+.Notice {
+
+    font-size:xx-large;
+    font-family:sans-serif;
+    width: 50px;
+    position:absolute;
+    left: 15em;
+    border:none;
+    border-radius:5px;
+    text-align: center;
+}
+    
+

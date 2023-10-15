@@ -1,41 +1,212 @@
-.web {
+* {
 
-    background-color:midnightblue;
-    background-image: url(https://e0.pxfuel.com/wallpapers/183/863/desktop-wallpaper-minimalist-dark-stars-background-page-1-dark-minimalist-space.jpg);
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins ' , sans-serif;
+
+
 
 }
 
-.div {
-    width: 100px;
-    height: 100px;
+header {
+
+position: fixed;
+top: 0;
+left: 0;
+padding: 20px 100px;
+background: rgb(0, 0, 22);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 99;
+background: transparent;
+color:#fff;
+
+
+
+
+}
+
+
+.sign {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    cursor: pointer;
+    transition: .5s;
+
+}
+
+.sign:hover {
+    background: #fff;
+    color: #162938;
+    opacity: 5%;
+}
+
+.navigation a {
     position: relative;
-    animation-name: example;
-    animation-duration: 4s;
-    color:white;
-}
-
-#Fonttext {
-
-    font-size: x-larger;
-    font-family: sans-serif;
-    height:50px;
-    color:white;
-    opacity:75%;
-
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
 
 }
 
+.navigation .techLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+    color: #fff;    
 
-.Notice {
 
+}
+
+.navigation .techLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+
+}
+
+
+
+.Msg {
+
+font-size:xx-large;
+font-family: 'Poppins' , sans-serif;
+text-align: center;
+padding-bottom: 25px 100px;
+opacity: 75;
+margin-bottom: 5em;
+border: none;
+color:white;
+
+
+
+
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    bottom: -6px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: .5;
+
+
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.Img {
+
+opacity: 100%;
+font-size: xx-large;
+font-family: sans-serif;
+position:relative;
+color: white;
+padding: 50px;
+left: 5em;
+transform: .5s; 
+
+
+
+
+
+}
+
+
+
+.D {
+position:relative;
+opacity: 50%;
+width: 500px;
+height: 250px;
+
+}
+
+.deBody {
+
+    background-image: url(https://e0.pxfuel.com/wallpapers/183/863/desktop-wallpaper-minimalist-dark-stars-background-page-1-dark-minimalist-space.jpg)
+
+}
+
+.Top {
+
+    align-content:flex-start;
+    position:relative;
+    text-align: justify;
+    color:white;
+    font-family:sans-serif, Arial;
+    border-bottom: 5em;
+    background-color: black;
+    opacity: 25;
+    background-position: 5em;
+    background-size: 60px;
+    box-shadow: 5px;
+    box-sizing: border-box;
+    border-radius: 25px;
+
+
+
+
+}
+
+.Logr {
+    background-image: url(https://wallpaperaccess.com/full/1145369.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.stuff {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#fff;
+    left: 25px;
     font-size:xx-large;
-    font-family:sans-serif;
-    width: 50px;
-    position:absolute;
-    left: 15em;
-    border:none;
-    border-radius:5px;
-    text-align: center;
-}
+    text-shadow: #162938;
+
     
 
+}
+
+.stuff::after:hover {
+
+   transform-origin:left;
+   transition: .5s;
+   border-radius: 5px;
+}
+
+.ThreeG {
+    display:flex;
+    font-family:'Poppins' ,sans-serif;
+    font-size:large;
+    justify-content:center;
+    align-items:center;
+    color:#fff;
+    opacity:75%;
+}
